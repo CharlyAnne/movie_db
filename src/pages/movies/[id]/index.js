@@ -1,10 +1,10 @@
+import Image from 'next/image';
+import { ColorRing } from 'react-loader-spinner';
 import { fetchMovie } from '@/Redux/movieSlice';
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useRouter } from 'next/router';
 import Sidebar from '@/Sidebar';
-import Image from 'next/image';
-import { ColorRing } from 'react-loader-spinner';
 import NavState from '../HomePage/NavState';
 import { AiFillStar } from 'react-icons/ai';
 
@@ -21,7 +21,7 @@ const Index = () => {
   console.log(movie);
 
   function formatPrice(price) {
-    // Check if the input is a valid number
+    // if input is a valid number
     if (typeof price !== 'number') {
       return;
     }
@@ -32,7 +32,7 @@ const Index = () => {
     if (isNaN(number)) return 'Invalid Number';
     if (number < 1000) return number.toString();
 
-    const abbreviations = ['K', 'M', 'B', 'T']; // Add more as needed
+    const abbreviations = ['C', 'H', 'B', 'T', 'E', 'J'];
     let index = 0;
 
     while (number >= 1000 && index < abbreviations.length) {

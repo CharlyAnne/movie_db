@@ -5,9 +5,9 @@ import Screen from '@/components/Screen';
 import FeaturedMovie from '@/components/FeaturedMovie';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
-import { ColorRing } from 'react-loader-spinner';
+// import { ColorRing } from 'react-loader-spinner';
 
-export default function HomePage() {
+export default function Home() {
   const dispatch = useDispatch();
   const { featuredMovie } = useSelector((state) => state.movies);
 
