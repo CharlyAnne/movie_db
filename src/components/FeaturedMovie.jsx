@@ -9,7 +9,7 @@ import {
 import { AiOutlineHeart, AiTwotoneHeart } from 'react-icons/ai';
 import { likeMovie } from '@/Redux/movieSlice';
 
-const Featured = () => {
+const FeaturedMovie = () => {
   const { moviesLoading, moviesError, allMovies, searchQuery } = useSelector(
     (state) => state.movies
   );
@@ -149,4 +149,4 @@ const Featured = () => {
   );
 };
 
-export default Featured;
+export default FeaturedMovie;
