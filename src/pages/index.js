@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { fetchMovies } from '@/Redux/movieSlice';
-import Home from '@/components/Home';
+import Screen from '@/components/Screen';
 import Featured from '@/components/Featured';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
@@ -23,7 +23,7 @@ export default function HomePage() {
           backgroundImage: `url(${
             featuredMovie?.poster_path
               ? `https://image.tmdb.org/t/p/original${featuredMovie?.poster_path}`
-              : '/assets/images/default.jpg'
+              : '/assets/default.jpg'
           })`,
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
@@ -32,7 +32,7 @@ export default function HomePage() {
         }}
       >
         <Navbar />
-        <Home />
+        <Screen />
       </section>
       <Featured />
       <Footer />
