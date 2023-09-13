@@ -43,8 +43,8 @@ const Navbar = () => {
             <Link href="/">
               <div className="md:p-2 text-xl flex items-center gap-3 font-bold">
                 <Image
-                  src="/assets/logo.svg"
-                  layout="intrisic"
+                  src="/assets/images/logo.svg"
+                  alt="logo"
                   height={25}
                   width={25}
                 />
@@ -53,7 +53,7 @@ const Navbar = () => {
                     height >= 150 ? 'text-[#333]' : 'text-white'
                   } text-[20px] font-bold`}
                 >
-                  Charly Charlie Movies
+                  Charlynk Movies
                 </h1>
               </div>
             </Link>

@@ -8,19 +8,25 @@ const navLinks = [
     id: 1,
     name: 'Home',
     path: '/',
-    icon: '/assets/home.svg',
+    icon: '/assets/images/home.svg',
   },
   {
     id: 2,
     name: 'Movies',
     path: '',
-    icon: '/assets/Movie.svg',
+    icon: '/assets/images/Movie.svg',
   },
   {
     id: 3,
     name: 'TV Series',
     path: '',
-    icon: '/assets/TV.svg',
+    icon: '/assets/images/TV.svg',
+  },
+  {
+    id: 4,
+    name: 'Upcoming',
+    path: '',
+    icon: '/assets/images/Calendar.svg',
   },
 ];
 const Sidebar = () => {
@@ -34,7 +40,7 @@ const Sidebar = () => {
       <div className="p-4 text-xl flex items-center gap-3 font-bold">
         <Image
           src="/assets/images/logo.svg"
-          layout="intrisic"
+          alt="logo"
           height={50}
           width={50}
         />
@@ -52,7 +58,7 @@ const Sidebar = () => {
                   : 'text-[#666666]'
               }`}
             >
-              <Image src={link.icon} layout="intrisic" height={25} width={25} />
+              <Image src={link.icon} alt="icon" height={25} width={25} />
               {link.name}
             </li>
           </Link>

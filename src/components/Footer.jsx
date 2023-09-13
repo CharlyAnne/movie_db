@@ -6,16 +6,32 @@ const Footer = () => {
       <div className="container mx-auto flex gap-4 flex-col justify-center ">
         <div className="space-x-4 flex w-full justify-center gap-4 ">
           <a href="#" className="text-gray-300 hover:text-white">
-            <img src="/assets/fb.png" alt="facebook" className="w-6 h-6" />
+            <img
+              src="/assets/images/fb.png"
+              alt="facebook"
+              className="w-6 h-6"
+            />
           </a>
           <a href="#" className="text-gray-300 hover:text-white">
-            <img src="/assets/twit.svg" alt="twitter" className="w-6 h-6" />
+            <img
+              src="/assets/images/tweet.svg"
+              alt="twitter"
+              className="w-6 h-6"
+            />
           </a>
           <a href="#" className="text-gray-300 hover:text-white">
-            <img src="/assets/ig.svg" alt="instagram" className="w-6 h-6" />
+            <img
+              src="/assets/images/ig.svg"
+              alt="instagram"
+              className="w-6 h-6"
+            />
           </a>
           <a href="#" className="text-gray-300 hover:text-white">
-            <img src="/assets/yt.svg" alt="youtube" className="w-6 h-6" />
+            <img
+              src="/assets/images/youtube.svg"
+              alt="youtube"
+              className="w-6 h-6"
+            />
           </a>
         </div>
         <div className="flex flex-col md:flex-row gap:3 items-center md:gap-8 text-[#111827] font-bold text-sm md:text-lg justify-center">

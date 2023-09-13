@@ -23,7 +23,7 @@ export default function HomePage() {
           backgroundImage: `url(${
             featuredMovie?.poster_path
               ? `https://image.tmdb.org/t/p/original${featuredMovie?.poster_path}`
-              : '/assets/default.jpg'
+              : '/assets/images/default.jpg'
           })`,
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',

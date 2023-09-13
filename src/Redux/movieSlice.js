@@ -87,7 +87,7 @@ const movieSlice = createSlice({
       state.moviesLoading = false;
       state.allMovies = [];
       state.moviesError =
-        'There was an error handling your request, please try again later.';
+        'There was an error handling your request, please fix it and try again later.';
     });
     builder.addCase(fetchMovie.pending, (state) => {
       state.movieLoading = true;

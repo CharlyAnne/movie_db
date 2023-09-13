@@ -47,16 +47,14 @@ const Screen = () => {
                 alt={featuredMovie?.title}
                 width={10}
                 height={10}
-                layout="intrisic"
                 className="w-auto h-6"
               />
               <p>{(featuredMovie?.vote_average * 10).toFixed(1)} / 100</p>
             </div>
             <div className="flex items-center gap-2 text-white">
               <Image
-                src="/assets/images/fruit.png"
+                src="/assets/images/tomato.png"
                 alt={featuredMovie?.title}
-                layout="intrisic"
                 height={50}
                 width={50}
                 className="w-6 h-6"
@@ -69,7 +67,6 @@ const Screen = () => {
             <Image
               src="/assets/images/trailer.svg"
               alt="trailer"
-              layout="intrisic"
               height={10}
               width={10}
               className="w-6 h-6"

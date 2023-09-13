@@ -33,8 +33,8 @@ const NavState = () => {
             <Link href="/">
               <div className="md:p-4 text-xl flex items-center gap-3 font-bold">
                 <Image
-                  src="/assets/logo.svg"
-                  layout="intrisic"
+                  src="/assets/images/logo.svg"
+                  alt="logo"
                   height={30}
                   width={30}
                 />
