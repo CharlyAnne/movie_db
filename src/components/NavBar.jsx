@@ -11,7 +11,6 @@ const Navbar = () => {
   const [openForm, setOpenForm] = useState(false);
   const { moviesLoading } = useSelector((state) => state.movies);
 
-  // an effect to cal windows scroll height
   useEffect(() => {
     const handleScroll = () => {
       setHeight(window.scrollY);
@@ -44,7 +43,7 @@ const Navbar = () => {
             <Link href="/">
               <div className="md:p-2 text-xl flex items-center gap-3 font-bold">
                 <Image
-                  src="/assets/images/logo.svg"
+                  src="/assets/logo.svg"
                   layout="intrisic"
                   height={25}
                   width={25}
@@ -54,7 +53,7 @@ const Navbar = () => {
                     height >= 150 ? 'text-[#333]' : 'text-white'
                   } text-[20px] font-bold`}
                 >
-                  Zik Movies
+                  Charly Charlie Movies
                 </h1>
               </div>
             </Link>
