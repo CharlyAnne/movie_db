@@ -7,13 +7,6 @@ const Footer = () => {
         <div className="space-x-4 flex w-full justify-center gap-4 ">
           <a href="#" className="text-gray-300 hover:text-white">
             <img
-              src="/assets/images/fb.png"
-              alt="facebook"
-              className="w-6 h-6"
-            />
-          </a>
-          <a href="#" className="text-gray-300 hover:text-white">
-            <img
               src="/assets/images/tweet.svg"
               alt="twitter"
               className="w-6 h-6"
