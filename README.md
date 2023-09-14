@@ -3,7 +3,7 @@
   <h1><b>Charlynk TV </b></h1><br/>
 </div>
 This repository contains the solution to the HNGx Stage 2 task
-<br/><br/>
+<br/>
 
 # 📗 Table of Contents
   - [Key Features](#key-features)
