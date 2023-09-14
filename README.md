@@ -1,27 +1,21 @@
 <a name='readme-top'></a>
-
 <div>
-  <h1><b>Charlynk TV - HNGx Stage 2 Task</b></h1><br/><br/>
+  <h1><b>Charlynk TV </b></h1><br/>
 </div>
+This repository contains the solution to the HNGx Stage 2 task
+<br/><br/>
 
 # 📗 Table of Contents
-
-- [📖 About the Project](#about-project)
-
   - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
   - [🛠 Built With](#built-with)
   - [Tech Stack](#tech-stack)
-
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🙏 Acknowledgements](#acknowledgements)
-
-## Charlynk TV <a name="about-project"></a>
 
 ### Key Features <a name="key-features"></a>
 
@@ -35,7 +29,7 @@
 - **Error Handling**
 - **Temporary like functionality**
 
-### 🚀 Live Demo <a name="live-demo"></a>
+### 🚀 Live Demo <a id="live-demo"></a>
 
 [Live_Demo](https://charlynktv.netlify.app)
 
@@ -95,7 +89,7 @@ To run the project, execute the following command:
 **run `npm install` on your terminal** to install the necessary dependencies
 **run `npm run dev` on your terminal** to run the project locally
 
-### Deployment
+### Deployment ||   [![Netlify Status](https://api.netlify.com/api/v1/badges/49ed62fd-e47e-48e3-84fb-9afb771c8ed1/deploy-status)](https://app.netlify.com/sites/charlynktv/deploys)
 
 You can deploy this project by:
 
@@ -104,7 +98,7 @@ You can deploy this project by:
 - Connect your github repo to Netflify
 - Select and project from github
 - Select the main branch and host
-  [![Netlify Status](https://api.netlify.com/api/v1/badges/49ed62fd-e47e-48e3-84fb-9afb771c8ed1/deploy-status)](https://app.netlify.com/sites/charlynktv/deploys)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
