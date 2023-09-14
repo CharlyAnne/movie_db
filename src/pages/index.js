@@ -4,7 +4,7 @@ import { fetchMovies } from '@/Redux/movieSlice';
 import Screen from '@/components/Screen';
 import Featured from '@/components/FeaturedMovie';
 import Footer from '@/components/Footer';
-import Navbar from '@/components/Navbar';
+import Navbar from '@/components/NavBar';
 // import { ColorRing } from 'react-loader-spinner';
 
 export default function Home() {
