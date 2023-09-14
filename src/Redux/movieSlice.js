@@ -5,7 +5,7 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
 const my_api_key = process.env.NEXT_PUBLIC_MY_MOVIESDB_API_KEY;
-const token = process.env.NEXT_PUBLIC_MY_MOVIESDB_API_KEY;
+const token = process.env.NEXT_PUBLIC_MOVIESDB_API_KEY;
 const baseUrl = 'https://api.themoviedb.org/3/';
 
 const initialState = {
