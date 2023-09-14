@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { fetchMovies } from '@/Redux/movieSlice';
 import Screen from '@/components/Screen';
-import FeaturedMovie from '@/components/FeaturedMovie';
+import Featured from '@/components/FeaturedMovie';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 // import { ColorRing } from 'react-loader-spinner';
@@ -34,7 +34,7 @@ export default function Home() {
         <Navbar />
         <Screen />
       </section>
-      <FeaturedMovie />
+      <Featured />
       <Footer />
     </main>
   );

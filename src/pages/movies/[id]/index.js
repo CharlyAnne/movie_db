@@ -4,8 +4,8 @@ import { fetchMovie } from '@/Redux/movieSlice';
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useRouter } from 'next/router';
-import Sidebar from '@/Sidebar';
-import NavState from '../HomePage/NavState';
+import Sidebar from '@/components/SideBar';
+import NavState from '@/components/NavState';
 import { AiFillStar } from 'react-icons/ai';
 
 const Index = () => {
@@ -79,6 +79,7 @@ const Index = () => {
               <div className="w-full h-[400px] z-[0]  relative flex-wrap">
                 <Image
                   objectFit="cover"
+                  layout="fill"
                   data-testid="movie-poster"
                   src={`https://image.tmdb.org/t/p/original${movie?.poster_path}`}
                   alt={movie?.title}
