@@ -1,68 +1,119 @@
-To be updated later - HNGx Task 2
+<a name='readme-top'></a>
 
-## Available Scripts
+<div>
+  <h1><b>Charlynk TV - HNGx Stage 2 Task</b></h1><br/><br/>
+</div>
 
-In the project directory, you can run:
+# 📗 Table of Contents
 
-### `npm start`
+- [📖 About the Project](#about-project)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+  - [🛠 Built With](#built-with)
+  - [Tech Stack](#tech-stack)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🙏 Acknowledgements](#acknowledgements)
 
-### `npm test`
+## Charlynk TV <a name="about-project"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Key Features <a name="key-features"></a>
 
-### `npm run build`
+- **Display 10 Featured movies**
+- **search for movies by title**
+- **Display search results**
+- **movie details page**
+- **Navigation**
+- **loading indicator**
+- **Responsiveness**
+- **Error Handling**
+- **Temporary like functionality**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🚀 Live Demo <a name="live-demo"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[Live_Demo](https://charlynktv.netlify.app)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🛠 Built With <a name="built-with"></a>
 
-### `npm run eject`
+### Tech Stack <a name="tech-stack"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<ul>
+  <li><a href="https://javascript.com/">JavaScript</a></li>
+  <li><a href='https://axios-http.com/docs/intro'>Axios</a></li?>
+  <li><a href="https://nextjs.org/">NextJS</a></li>
+  <li><a href="https://tailwindcss.com">TailwindCSS</a></li>
+  <li><a href="https://redux-toolkit.js.org">ReduxToolkit</a></li>
+</ul>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 💻 Getting Started <a name="getting-started"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To get a local copy up and running, follow these steps.
 
-## Learn More
+### Prerequisites
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+In order to run this project you need:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- A browser (e.g. Chrome)
+- An IDE (e.g. [Vususal Studio Code](https://code.visualstudio.com/download))
+- [npm](https://nodejs.org/en/)
+- Terminal
 
-### Code Splitting
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To clone this repository to your desired folder, follow the steps below:
 
-### Analyzing the Bundle Size
+**Using the command line**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Use the following commands
 
-### Making a Progressive Web App
+```sh
+  cd my-folder
+  git clone https://github.com/CharlyAnne/movie_db.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Using GitHub Desktop app**
 
-### Advanced Configuration
+- Follow the steps below
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  - Visit this link [click me](https://github.com/CharlyAnne/movie_db)
+  - Click the green button labelled "code"
+  - Select the "Open with GitHub Desktop" option
+  - After the GitHub Desktop add opens, click the "clone repo" button
+
+### Usage
+
+To run the project, execute the following command:
+
+**run `npm install` on your terminal** to install the necessary dependencies
+**run `npm run dev` on your terminal** to run the project locally
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project by:
 
-### `npm run build` fails to minify
+- visiting your repository on [Netlify](https://app.netlify.com/)
+- Signup / Signin
+- Connect your github repo to Netflify
+- Select and project from github
+- Select the main branch and host
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/49ed62fd-e47e-48e3-84fb-9afb771c8ed1/deploy-status)](https://app.netlify.com/sites/charlynktv/deploys)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### 👥 Author <a name="authors"></a>
+
+👤 **Charlian**
+
+- GitHub: [@CharlyAnne](https://github.com/CharlyAnne)
+- Twitter: [@Imoisiliii](https://twitter.com/Imoisiliii)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/charlian-imoisili)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
