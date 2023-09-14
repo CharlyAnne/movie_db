@@ -43,7 +43,7 @@ const NavState = () => {
                     height >= 150 ? 'text-[#333]' : 'text-white'
                   } text-[24px] font-bold`}
                 >
-                  Charlynk Movies
+                  Charlynk TV
                 </h1>
               </div>
             </Link>

@@ -28,12 +28,11 @@ const Footer = () => {
           </a>
         </div>
         <div className="flex flex-col md:flex-row gap:3 items-center md:gap-8 text-[#111827] font-bold text-sm md:text-lg justify-center">
-          <p>Social Links</p>
           <p>Conditions of Use</p>
           <p>Privacy & Policy</p>
         </div>
-        <div className="flex mb-8 text-[#6B7280] font-bold text-sm md:text-lg justify-center">
-          &copy; {new Date().getFullYear()} CharlyAnne
+        <div className="flex mb-8 text-[#ea5455] font-bold text-sm md:text-lg justify-center">
+          &copy; {new Date().getFullYear()} Charlynk TV by CharlyAnne
         </div>
       </div>
     </footer>

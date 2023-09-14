@@ -9,7 +9,7 @@ import {
 import { AiOutlineHeart, AiTwotoneHeart } from 'react-icons/ai';
 import { likeMovie } from '@/Redux/movieSlice';
 
-const FeaturedMovie = () => {
+const Featured = () => {
   const { moviesLoading, moviesError, allMovies, searchQuery } = useSelector(
     (state) => state.movies
   );
@@ -127,7 +127,7 @@ const FeaturedMovie = () => {
                         </div>
                         <div className="flex items-center gap-2">
                           <Image
-                            src="/assets/images/fruit.png"
+                            src="/assets/images/tomato.png"
                             alt={movie?.title}
                             layout="intrisic"
                             height={50}
@@ -149,4 +149,4 @@ const FeaturedMovie = () => {
   );
 };
 
-export default FeaturedMovie;
+export default Featured;

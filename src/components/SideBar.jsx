@@ -3,6 +3,7 @@ import Link from 'next/link'; // Use appropriate routing library
 // import { RiMovie2Fill, RiHomeFill, RiTvFill, RiCalendar2Fill } from 'react-icons/ri';
 import Image from 'next/image';
 import { MdOutlineLogout } from 'react-icons/md';
+
 const navLinks = [
   {
     id: 1,
@@ -44,7 +45,7 @@ const Sidebar = () => {
           height={50}
           width={50}
         />
-        <h1 className="text-[#333333] text-[24px] font-bold">Zik Movies</h1>
+        <h1 className="text-[#333333] text-[24px] font-bold">Charlynk TV</h1>
       </div>
       <ul className="flex-grow mt-6 w-full ">
         {navLinks.map((link) => (

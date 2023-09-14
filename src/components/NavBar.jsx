@@ -53,7 +53,7 @@ const Navbar = () => {
                     height >= 150 ? 'text-[#333]' : 'text-white'
                   } text-[20px] font-bold`}
                 >
-                  Charlynk Movies
+                  Charlynk TV
                 </h1>
               </div>
             </Link>
